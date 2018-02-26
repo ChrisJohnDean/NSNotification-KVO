@@ -15,6 +15,7 @@
 		8984A17520439FC90024D35A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8984A17420439FC90024D35A /* main.m */; };
 		8984A17F20439FC90024D35A /* NSNotification_KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8984A17E20439FC90024D35A /* NSNotification_KVOTests.m */; };
 		8984A18A20439FC90024D35A /* NSNotification_KVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8984A18920439FC90024D35A /* NSNotification_KVOUITests.m */; };
+		8984A1992043A49E0024D35A /* StepperValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8984A1982043A49E0024D35A /* StepperValueViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8984A18520439FC90024D35A /* NSNotification&KVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSNotification&KVOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8984A18920439FC90024D35A /* NSNotification_KVOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNotification_KVOUITests.m; sourceTree = "<group>"; };
 		8984A18B20439FC90024D35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8984A1972043A49E0024D35A /* StepperValueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepperValueViewController.h; sourceTree = "<group>"; };
+		8984A1982043A49E0024D35A /* StepperValueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepperValueViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				8984A17020439FC90024D35A /* LaunchScreen.storyboard */,
 				8984A17320439FC90024D35A /* Info.plist */,
 				8984A17420439FC90024D35A /* main.m */,
+				8984A1972043A49E0024D35A /* StepperValueViewController.h */,
+				8984A1982043A49E0024D35A /* StepperValueViewController.m */,
 			);
 			path = "NSNotification&KVO";
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				8984A16A20439FC90024D35A /* ViewController.m in Sources */,
 				8984A17520439FC90024D35A /* main.m in Sources */,
+				8984A1992043A49E0024D35A /* StepperValueViewController.m in Sources */,
 				8984A16720439FC90024D35A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
